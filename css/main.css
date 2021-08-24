@@ -356,8 +356,15 @@ header .badges .badge {
 
 .notice .notice-line .inner .inner__left .swiper-container {
   height: 62px;
-  background-color: orange;
   flex-grow:1;
+}
+.notice .notice-line .inner .inner__left .swiper-container .swiper-slide {
+  height: 62px;
+  display: flex;
+  align-items: center;
+}
+.notice .notice-line .inner .inner__left .swiper-container .swiper-slide a {
+  color: #fff;
 }
 
 // justify-content: 수평정렬 align-items: 수직정렬
